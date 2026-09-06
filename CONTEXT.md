@@ -105,7 +105,8 @@ Story: famine threat forces a village to move in 10 days; the family packs grain
 ## 8 · Repo layout
 
 - `CONTEXT.md` — this file. Update + push at the end of every task / session.
-- `Chat` — full copy of the previous session's chat export (the source of this context).
+- `Chat` — full copy of the earlier session's chat export (the source of this context).
+- `Chat-2026-08-28-to-2026-09-06.txt` — full export of the Video ink 4 session (user rules on style/masters/beats, corrections, approval).
 - `deliverables/` — every generated HTML / text deliverable, saved per video.
 - `videos-repo-backup/` — archive of ALL files from the old `Videos` repo (moved here 2026-08-30, then `Videos` repo was emptied for a fresh start).
 - **Repos (updated 2026-08-30):**
