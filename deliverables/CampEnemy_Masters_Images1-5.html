@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enemy Camp Invasion — Image Prompts: Masters + Images 1–5</title>
+<style>
+  body { font-family: "Segoe UI", Arial, sans-serif; margin: 0; padding: 24px; background: #f4f4f4; color: #111; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 14px; color: #b00020; margin: 0 0 16px; font-weight: 600; }
+  .note { background: #fff; border: 1px solid #ddd; border-left: 4px solid #b00020; padding: 12px 14px; font-size: 13px; margin-bottom: 20px; line-height: 1.5; }
+  .section { background: #111; color: #fff; padding: 8px 14px; border-radius: 4px; margin: 26px 0 14px; font-size: 15px; font-weight: 700; letter-spacing: 1px; }
+  .frame { background: #fff; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 14px; overflow: hidden; }
+  .frame.env { border-left: 5px solid #2e7d32; }
+  .frame.master { border-left: 5px solid #111; }
+  .fhead { padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; background: #fafafa; border-bottom: 1px solid #eee; }
+  .fnum { font-weight: 700; font-size: 14px; }
+  .ftag { font-size: 11px; font-weight: 700; letter-spacing: 1px; color: #fff; padding: 2px 8px; border-radius: 10px; }
+  .env .ftag { background: #2e7d32; }
+  .master .ftag { background: #111; }
+  .fscene { padding: 6px 12px 4px; font-size: 13.5px; line-height: 1.5; }
+  pre { margin: 0; padding: 10px 12px; background: #f7f7f7; font-size: 12px; overflow-x: auto; border-top: 1px solid #eee; }
+  .footer { margin-top: 18px; font-size: 12px; color: #777; }
+</style>
+</head>
+<body>
+<h1>Video — Enemy Camp Invasion</h1><h2>Character Masters + Images 1–5</h2><div class="note"><b>How to use:</b> generate each master once to lock the look, then reuse by name in the scenes. You add the <code>provided in image X</code> reference lines yourself. Masters use the white-background card wrapper; scenes use the env wrapper. Full locked command on every frame.</div><div class="section">CHARACTER MASTERS</div><div class="frame master">
+      <div class="fhead"><span class="fnum">A — Enemy British Army Stickman</span><span class="ftag">MASTER</span></div>
+      <div class="fscene">MS Paint painted flat clean style , white background. Scene : an enemy stickman , full body , wearing british army clothes , a cap with a green feather on the head. background: plain white background</div>
+      <pre class="fcmd">higgsfield generate create gpt_image_2 --prompt &quot;MS Paint painted flat clean style , white background. Scene : an enemy stickman , full body , wearing british army clothes , a cap with a green feather on the head. background: plain white background&quot; --aspect_ratio 16:9 --wait 2&gt;&amp;1 | tail -3 &amp;</pre>
+    </div><div class="frame master">
+      <div class="fhead"><span class="fnum">B — Injured Veteran Stickman</span><span class="ftag">MASTER</span></div>
+      <div class="fscene">MS Paint painted flat clean style , white background. Scene : an injured veteran stickman , full body , wearing veteran army clothes , a cap with a green feather on the head , an arrow backbag on the back. background: plain white background</div>
+      <pre class="fcmd">higgsfield generate create gpt_image_2 --prompt &quot;MS Paint painted flat clean style , white background. Scene : an injured veteran stickman , full body , wearing veteran army clothes , a cap with a green feather on the head , an arrow backbag on the back. background: plain white background&quot; --aspect_ratio 16:9 --wait 2&gt;&amp;1 | tail -3 &amp;</pre>
+    </div><div class="section">SCENES</div><div class="frame env">
+      <div class="fhead"><span class="fnum">Image 1</span><span class="ftag">ENV</span></div>
+      <div class="fscene">MS Paint painted flat clean style . Scene : two enemy stickmen , wearing british army clothes , a cap with a green feather on the head , holding shotguns in their hands , moving in a war like place , green autumn season , leaves spread on the ground , some war related details , short labelling line with text as written by hand but clean , reads &#x27;MOVING&#x27;. background: the war field , green autumn trees , scattered fallen leaves , grey sky</div>
+      <pre class="fcmd">higgsfield generate create gpt_image_2 --prompt &quot;MS Paint painted flat clean style . Scene : two enemy stickmen , wearing british army clothes , a cap with a green feather on the head , holding shotguns in their hands , moving in a war like place , green autumn season , leaves spread on the ground , some war related details , short labelling line with text as written by hand but clean , reads &#x27;MOVING&#x27;. background: the war field , green autumn trees , scattered fallen leaves , grey sky&quot; --aspect_ratio 16:9 --wait 2&gt;&amp;1 | tail -3 &amp;</pre>
+    </div><div class="frame env">
+      <div class="fhead"><span class="fnum">Image 2</span><span class="ftag">ENV</span></div>
+      <div class="fscene">MS Paint painted flat clean style . Scene : same season scene , inside a camp tent , an injured veteran stickman worried , lying on the tent ground , his backbag has no arrows left , injured , hiding , the tent filled with little war related things like 3 or 4 , short labelling line with text as written by hand but clean , reads &#x27;INJURED&#x27;. background: inside the camp tent , a few war things around , tent walls , grey sky outside the tent opening</div>
+      <pre class="fcmd">higgsfield generate create gpt_image_2 --prompt &quot;MS Paint painted flat clean style . Scene : same season scene , inside a camp tent , an injured veteran stickman worried , lying on the tent ground , his backbag has no arrows left , injured , hiding , the tent filled with little war related things like 3 or 4 , short labelling line with text as written by hand but clean , reads &#x27;INJURED&#x27;. background: inside the camp tent , a few war things around , tent walls , grey sky outside the tent opening&quot; --aspect_ratio 16:9 --wait 2&gt;&amp;1 | tail -3 &amp;</pre>
+    </div><div class="frame env">
+      <div class="fhead"><span class="fnum">Image 3</span><span class="ftag">ENV</span></div>
+      <div class="fscene">MS Paint painted flat clean style . Scene : same previous scene , the injured veteran stickman lying , moving his hand backward while lying , like going to pull an arrow from his backbag , but there are no arrows left , worried expression , short labelling line with text as written by hand but clean , reads &#x27;NO ARROW&#x27;. background: inside the camp tent , the empty arrow backbag , tent walls</div>
+      <pre class="fcmd">higgsfield generate create gpt_image_2 --prompt &quot;MS Paint painted flat clean style . Scene : same previous scene , the injured veteran stickman lying , moving his hand backward while lying , like going to pull an arrow from his backbag , but there are no arrows left , worried expression , short labelling line with text as written by hand but clean , reads &#x27;NO ARROW&#x27;. background: inside the camp tent , the empty arrow backbag , tent walls&quot; --aspect_ratio 16:9 --wait 2&gt;&amp;1 | tail -3 &amp;</pre>
+    </div><div class="frame env">
+      <div class="fhead"><span class="fnum">Image 4</span><span class="ftag">ENV</span></div>
+      <div class="fscene">MS Paint painted flat clean style . Scene : the same tent , pov view from the eyes of the injured veteran stickman lying on the ground , at the tent entrance the same enemy stickman standing , evil expression , holding the same shotgun in his hand. background: inside the camp tent , the enemy stickman at the tent entrance , tent walls , grey light</div>
+      <pre class="fcmd">higgsfield generate create gpt_image_2 --prompt &quot;MS Paint painted flat clean style . Scene : the same tent , pov view from the eyes of the injured veteran stickman lying on the ground , at the tent entrance the same enemy stickman standing , evil expression , holding the same shotgun in his hand. background: inside the camp tent , the enemy stickman at the tent entrance , tent walls , grey light&quot; --aspect_ratio 16:9 --wait 2&gt;&amp;1 | tail -3 &amp;</pre>
+    </div><div class="frame env">
+      <div class="fhead"><span class="fnum">Image 5</span><span class="ftag">ENV</span></div>
+      <div class="fscene">MS Paint painted flat clean style . Scene : same pov view , the same enemy stickman at the tent entrance shoots the shotgun , the bullet moving out of the gun , fire flash at the muzzle , hand pulling the trigger of the shotgun. background: inside the camp tent , the enemy stickman at the tent entrance , muzzle fire flash , tent walls</div>
+      <pre class="fcmd">higgsfield generate create gpt_image_2 --prompt &quot;MS Paint painted flat clean style . Scene : same pov view , the same enemy stickman at the tent entrance shoots the shotgun , the bullet moving out of the gun , fire flash at the muzzle , hand pulling the trigger of the shotgun. background: inside the camp tent , the enemy stickman at the tent entrance , muzzle fire flash , tent walls&quot; --aspect_ratio 16:9 --wait 2&gt;&amp;1 | tail -3 &amp;</pre>
+    </div>
+  <div class="footer">Ancient Ago Channel · ink. · Image prompts</div>
+</body>
+</html>
