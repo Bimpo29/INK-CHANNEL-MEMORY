@@ -98,6 +98,20 @@ Story: famine threat forces a village to move in 10 days; the family packs grain
 - NOTE: the masters written earlier (6 crude stickmen with brown fur cloth) were written BEFORE the user's new rules (name + clothing only, clothing decided by user). User confirmed for Video ink 4 they already have teacher + father refs, will do mother/son themselves, and image prompts just reference "ancient tribe stickman figures" and "ancient stickman on horse" by name — so NO masters are generated for this video.
 - Style note (user locked): character prompts must be SIMPLE — reject "too much detail," "AI slop," art jargon (cel-shaded / cinematic / vector / flat 2D / rich / painterly / lighting / shadows / glow). Use MS Paint beginner / childish amateur language.
 
+## 7a · Video ink 5 (Amazon jungle survival) — IN PROGRESS
+
+- Title ideas user wrote: "I SURVIVE DANGEROUS ANIMALS IN AMAZON JUNGLE (Nearly Dead)" / "AMAZON CHALLENGE GONE WRONG (ALMOST DEAD)".
+- User note: moving away from the ancient vibe slowly toward his own unique style, keeping some ancient things.
+- **NEW user rules introduced with ink 5:**
+  - Characters are produced per user's list as one sheet: whole / front / back / side / faces; same sheet style for recurring locations and items.
+  - Recurring items and locations are generated SEPARATELY with the same locked command format.
+  - Add "factors" like air/wind etc. to give scenes weight.
+- Characters (user's list): **Main Stickman** (Traveller, bagpack, cap with red sparrow feather), **Jaguar**, **Friend one**, **Friend two** (friends wear suitable clothes, each different).
+- **Beats file (tags + numbering)**: `Video ink — 5.docx` (Videos repo, commit `67e2738`) — 385 numbered beats (1–386) + SILENT CLOSING; 231 env / 154 white. Beat **222 missing** (user moved/cancelled). Only the user cancels/reorders/moves beats.
+- **User's described beats (1–98, committed `5d9b4c9`)**: his own descriptions, 11 cancelled-markers (23,26,35,49,66,72,77,84,85,94,98). Style: `(tag) N. <beat> : <description>`; white = "teacher stickman , one finger raised , labelling line text : X" or icon/diagram cards; env = scene with named characters; uses "labelling line text : X" (NOT leader line).
+- **My continued descriptions (99–386)**: DONE — `deliverables/Video ink 5 Descriptions (AI continued 99-386).docx` (user's 1–98 verbatim + my 99–386 appended in his style; beat 384 fixed). Pushed to memory repo. Building from `/tmp/opencode/ink5_desc_map.json`.
+- **NEXT (pending user review of the DOCX)**: user corrects the batch, puts it back in Videos repo → then I write IMAGE PROMPTS in locked format (masters separate, then scenes), plus recurring items/locations separately.
+
 ## 7b · Delivery rule — live server preview
 
 - User expects image-prompt files delivered in a live server preview (previous session's preview server is dead), not just chat dumps / file links. Start `python3 -m http.server` (or similar) in the deliverable dir and hand the direct URL. Preview links on `*.monkeycode-ai.live` still die when the VM goes offline — always also push to the repos.
